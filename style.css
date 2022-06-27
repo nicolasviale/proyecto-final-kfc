@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+.cerrado {
+  margin: 0 27%;
+}
+
+button {
+  background-color: red;
+  margin: 0 37%;
+  font-size: 30px;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+}
+
+.logo-header {
+  max-height: 80px;
+}
+
+.dom {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1vh;
+  background-color: white;
+}
+
+.nav-hija {
+  color: black;
+}
+
+.headerf {
+  width: 100%;
+}
+
+.main-index {
+  display: grid;
+  grid-template-areas:
+    "foto1 foto2"
+    "foto3 foto4";
+  gap: 2px;
+}
+
+.grid1 {
+  grid-area: foto1;
+  width: 100%;
+  height: 100%;
+}
+
+.grid2 {
+  grid-area: foto3;
+  width: 100%;
+  height: 100%;
+}
+.grid3 {
+  grid-area: foto2;
+  width: 100%;
+  height: 100%;
+}
+
+.grid4 {
+  grid-area: foto4;
+  width: 100%;
+  height: 100%;
+}
+
+footer img {
+  display: flex;
+  margin: auto;
+  padding: 10px 0;
+  width: 15%;
+  height: 15%;
+}
+
+.footer {
+  background-color: antiquewhite;
+}
+
+.li-menu {
+  background-color: red;
+  padding: 0 5vw;
+}
+
+.main-menu {
+  display: grid;
+  grid-template-areas:
+    "menu1 menu2"
+    "menu3 menu4"
+    "menu5 menu6";
+  gap: 20px;
+}
+
+.menu-1 {
+  grid-area: menu1;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-2 {
+  grid-area: menu2;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-4 {
+  grid-area: menu3;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-5 {
+  grid-area: menu4;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-6 {
+  grid-area: menu5;
+  width: 100%;
+  height: 100%;
+}
+
+.main-promo {
+  display: grid;
+  grid-template-areas:
+    "promo1 promo2"
+    "promo3 promo4";
+  gap: 20px;
+}
+
+.promo1 {
+  grid-area: promo1;
+  width: 100%;
+  height: 100%;
+}
+
+.promo2 {
+  grid-area: promo2;
+  width: 100%;
+  height: 100%;
+}
+
+.promo3 {
+  grid-area: promo3;
+  width: 100%;
+  height: 100%;
+}
+
+.main-local {
+  display: grid;
+  grid-template-areas:
+    "mapa1 mapa2"
+    "mapa3 mapa4";
+}
+
+.div-1 {
+  grid-area: mapa1;
+  height: 100%;
+  width: 100%;
+}
+
+.div-2 {
+  grid-area: mapa2;
+  height: 100%;
+  width: 100%;
+}
+
+.div-3 {
+  grid-area: mapa3;
+  height: 100%;
+  width: 100%;
+}
+
+.div-4 {
+  grid-area: mapa4;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-local {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 0;
+  }
+
+  iframe {
+    width: 400px;
+    height: 400px;
+  }
+}

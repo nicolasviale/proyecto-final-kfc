@@ -5,52 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PROMOCIONES</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-        <header>
-      <a href="../index.html"><img src="../imagenes/KFC-logo.png" alt="KFC-logo" class="logo-header"/></a>
-      <nav>
-      <ul class="nav">
-        <li><a href="../pages/MENU.html" class="a-nav">MENU</a></li>
-        <li class="li-menu2">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-antiquewhite text-dark">
+        <div class="container-fluid flex-nowrap">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              src="../imagenes/KFC-logo.png"
+              alt="logo kfc"
+              class="logo-header"
+          /></a>
 
-        </li><a href="../pages/PROMOCIONES.HTML" class="a-nav">PROMOCIONES</a></li>
-        <li></li><a href="../pages/LOCALES.html" class="a-nav">LOCALES</a></li>
-      </ul>
-      </nav> 
-    </header> 
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div>
-           <img src="../imagenes/promo1.jpg" alt="" class="headerf" />
-    </div> 
-    
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100 d-flex justify-content-evenly">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/MENU.html"
+                  >MENU</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/PROMOCIONES.HTML"
+                  >PROMOCIONES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/LOCALES.html">LOCALES</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="header-div">
+      <img src="../imagenes/promo1.jpg" alt="" class="headerf" />
+    </div>
+
     <main class="main-promo">
-        <img src="../imagenes/promo2.jpg" alt="" class="promo1">
-        <img src="../imagenes/promo3.jpg" alt="" class="promo2">
-        <img src="../imagenes/promo4.png" alt="" class="promo3">
+      <img src="../imagenes/promo2.jpg" alt="" class="promo1" />
+      <img src="../imagenes/promo3.jpg" alt="" class="promo2" />
+      <img src="../imagenes/promo4.png" alt="" class="promo3" />
     </main>
 
-        <footer>
+    <footer>
       <img src="../imagenes/logo-footer.png" alt="" />
       <nav>
-      <ul class="nav footer">
-        <li>
-          <a href="https://www.facebook.com/KFCArgentina/" target="_blank" class="lista-f">Facebook</a>
-        </li>
-        <li>
-          <a href="https://twitter.com/kfc_es" target="_blank" class="lista-f">Twitter</a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/kfc_argentina/?hl=es" target="_blank" class="lista-f">Instagram</a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/c/kfc" target="_blank" class="lista-f">Youtube</a>
-        </li>
-      </ul>
-            </nav>
+        <ul class="nav footer">
+          <li>
+            <a
+              href="https://www.facebook.com/KFCArgentina/"
+              target="_blank"
+              class="lista-f"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/kfc_es" target="_blank" class="lista-f"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/kfc_argentina/?hl=es"
+              target="_blank"
+              class="lista-f"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/c/kfc"
+              target="_blank"
+              class="lista-f"
+              >Youtube</a
+            >
+          </li>
+        </ul>
+      </nav>
     </footer>
 
-
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

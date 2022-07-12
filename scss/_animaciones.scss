@@ -1,0 +1,58 @@
+.header-div {
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin: 10px;
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+
+  .a-nav {
+    &:hover {
+      background-color: red;
+      width: fit-content;
+      height: fit-content;
+    }
+  }
+}
+
+.grid1 {
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+}
+.grid2 {
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+}
+
+.menu-1 {
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+}
+.menu-2 {
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+}
+.menu-3 {
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+}
+.menu-4 {
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+}
+.menu-5 {
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+}
+.menu-6 {
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+  }
+}

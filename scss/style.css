@@ -9,7 +9,11 @@
 }
 .header-div .a-nav:hover {
   background-color: red;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -43,6 +47,56 @@
 
 .menu-6:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+}
+
+.main-index {
+  display: grid;
+  grid-template-areas: "foto1 foto2" "foto3 foto4";
+  gap: 10px;
+  margin: 10px;
+}
+
+.grid1 {
+  grid-area: foto1;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.grid2 {
+  grid-area: foto3;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.grid3 {
+  grid-area: foto2;
+  width: 100%;
+  height: 100%;
+}
+
+.grid4 {
+  grid-area: foto4;
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo-header {
+  max-height: 80px;
+}
+
+.headerf {
+  width: 100%;
 }
 
 * {
@@ -83,30 +137,13 @@ p {
   text-align: center;
 }
 
-.logo-header {
-  max-height: 80px;
-}
-
 .dom {
   display: flex;
   justify-content: center;
 }
 
-.nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
-  padding: 1vh;
-  background-color: rgb(255, 255, 255);
-}
-
 .nav-hija {
   color: black;
-}
-
-.headerf {
-  width: 100%;
 }
 
 .lista-f:hover {
@@ -247,6 +284,4 @@ h5 {
 .botonaso {
   padding-top: 10px;
   padding-right: 42%;
-}
-
-/*# sourceMappingURL=css.map */
+}/*# sourceMappingURL=style.css.map */

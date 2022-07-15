@@ -33,3 +33,189 @@
 .main-index {
   @extend %grid-area;
 }
+
+.grid1 {
+  @extend %grid-uno;
+}
+.grid2 {
+  @extend %grid-dos;
+}
+.grid3 {
+  @extend %grid-tres;
+}
+.grid4 {
+  @extend %grid-cuatro;
+}
+
+%nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.nav {
+  @extend %nav;
+}
+
+%boton {
+  background-color: red;
+  margin: 0 37%;
+  font-size: 30px;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+}
+
+.boton {
+  @extend %boton;
+}
+
+%grid-menu {
+  display: grid;
+  grid-template-areas:
+    "menu1 menu2"
+    "menu3 menu4"
+    "menu5 menu6";
+  gap: 20px;
+  margin: 10px;
+}
+
+%menu-uno {
+  grid-area: menu1;
+  width: 100%;
+  height: 100%;
+}
+%menu-dos {
+  grid-area: menu2;
+  width: 100%;
+  height: 100%;
+}
+%menu-cuatro {
+  grid-area: menu3;
+  width: 100%;
+  height: 100%;
+}
+%menu-cinco {
+  grid-area: menu4;
+  width: 100%;
+  height: 100%;
+}
+%menu-seis {
+  grid-area: menu5;
+  width: 100%;
+  height: 100%;
+}
+
+.main-menu {
+  @extend %grid-menu;
+}
+
+.menu-1 {
+  @extend %menu-uno;
+}
+.menu-2 {
+  @extend %menu-dos;
+}
+.menu-4 {
+  @extend %menu-cuatro;
+}
+.menu-5 {
+  @extend %menu-cinco;
+}
+.menu-6 {
+  @extend %menu-seis;
+}
+
+%grid-promo {
+  display: grid;
+  grid-template-areas:
+    "promo1 promo2"
+    "promo3 promo4";
+  gap: 20px;
+  margin: 1%;
+}
+
+%promo-1 {
+  grid-area: promo1;
+  width: 100%;
+  height: 100%;
+}
+%promo-2 {
+  grid-area: promo2;
+  width: 100%;
+  height: 100%;
+}
+%promo-3 {
+  grid-area: promo3;
+  width: 100%;
+  height: 100%;
+}
+
+.main-promo {
+  @extend %grid-promo;
+}
+
+.promo1 {
+  @extend %promo-1;
+}
+.promo2 {
+  @extend %promo-2;
+}
+.promo3 {
+  @extend %promo-3;
+}
+
+%grid-local {
+  display: grid;
+  grid-template-areas:
+    "mapa1 mapa2"
+    "mapa3 mapa4";
+}
+
+%mapa-1 {
+  grid-area: mapa1;
+  height: 100%;
+  width: 100%;
+}
+%mapa-2 {
+  grid-area: mapa2;
+  height: 100%;
+  width: 100%;
+}
+%mapa-3 {
+  grid-area: mapa3;
+  height: 100%;
+  width: 100%;
+}
+%mapa-4 {
+  grid-area: mapa4;
+  height: 100%;
+  width: 100%;
+}
+
+.main-local {
+  @extend %grid-local;
+}
+.div-1 {
+  @extend %mapa-1;
+}
+.div-2 {
+  @extend %mapa-2;
+}
+.div-3 {
+  @extend %mapa-3;
+}
+.div-4 {
+  @extend %mapa-4;
+}
+
+%cerrado {
+  margin: 0 27%;
+}
+
+.cerrado {
+  @extend %cerrado;
+}

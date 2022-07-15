@@ -1,0 +1,23 @@
+$boton: (
+  pad-t: padding-top 10px,
+  pad-r: padding-right 42%,
+);
+
+.botonaso {
+  padding-top: map-get($boton, pad-t);
+  padding-right: map-get($boton, pad-r);
+}
+
+$main: (
+  w: width 60%,
+  h: height 60%,
+  m: margin auto,
+  pt: padding-top 30px,
+);
+
+.main-b {
+  width: map-get($main, w);
+  height: map-get($main, h);
+  margin: map-get($main, m);
+  padding-top: map-get($main, pt);
+}

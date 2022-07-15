@@ -1,0 +1,40 @@
+@mixin max-height($max-height) {
+  max-height: $max-height;
+}
+
+@mixin width($width) {
+  width: $width;
+}
+
+@mixin varios($display, $justify-content) {
+  display: $display;
+  justify-content: $justify-content;
+}
+
+@mixin color($color) {
+  color: $color;
+}
+
+@mixin bg($bgcolor) {
+  background-color: $bgcolor;
+}
+
+.logo-header {
+  @include max-height($max-height(80px));
+}
+
+.headerf {
+  @include width($width(100%));
+}
+
+.dom {
+  @include varios(flex, center);
+}
+
+.nav-hija {
+  @include color(black);
+}
+
+.footer {
+  @include bg(antiquewhite);
+}

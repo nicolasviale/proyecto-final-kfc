@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
 .header-div {
   box-sizing: border-box;
@@ -97,13 +104,6 @@
 
 .headerf {
   width: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
 }
 
 ul li {
@@ -284,4 +284,4 @@ h5 {
 .botonaso {
   padding-top: 10px;
   padding-right: 42%;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
